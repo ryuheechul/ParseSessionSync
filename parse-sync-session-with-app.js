@@ -1,7 +1,7 @@
 if (!Parse) {
   window.alert("You need to use Parse Javascript SDK first!");
 } else {
-  window.parseSynchronizeSessionWithApp = function () {
+  window.parseSyncSessionWithApp = function () {
     if(window.android == null) {
       window.alert("You need to wrap this web page with an android or iphone app set up with ParseAppWebViewSessionConnector.");
       return;
