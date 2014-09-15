@@ -47,3 +47,7 @@ Ryu Heechul, ryuhcii@gmail.com
 ## License
 
 ParseSessionSync is available under the MIT license. See the LICENSE file for more info.
+
+## Contribution
+
+Welcome your contribution!
