@@ -11,7 +11,7 @@ ParseSessionSync
 - add ParseSessionSyncJsInterface.java to android project src folder.
 
 ```java
-import [your].[package].ParseSessionSyncJsInterface;
+import your.package.ParseSessionSyncJsInterface;
 ParseSessionSyncJsInterface.applyInterface(webView, [ApplicationID], [Javascriptkey]);
 ```
 
@@ -21,7 +21,7 @@ ParseSessionSyncJsInterface.applyInterface(webView, [ApplicationID], [Javascript
 
 ```js
 <script type="text/javascript" src="[js src dir]/parse-sync-session-with-app.js"></script>
-<script>
+<script type="text/javascript">
   ...
 
   parseSyncSessionWithApp(); // instead of Parse.initialize([ApplicationID], [Javascriptkey]);
